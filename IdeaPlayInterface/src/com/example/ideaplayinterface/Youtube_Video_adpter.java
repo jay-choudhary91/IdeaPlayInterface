@@ -64,6 +64,8 @@ public class Youtube_Video_adpter extends BaseAdapter
 			
 		}
 		int a=0;
+		int b=1;
+		int c=1;
 		text_title.setText(searched_list.get(position).getTitle());
 		text_by.setText(searched_list.get(position).getUploader());
 		text_video_uploaded_date.setText(searched_list.get(position).getUploaded());
